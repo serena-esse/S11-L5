@@ -73,7 +73,7 @@ export const searchFetch = (searchQuery) => {
           payload: res.data,
         });
       } else {
-        console.log("Fatal error #1!");
+        console.log("Errore #1!");
       }
     } catch (error) {
       console.log(error);
@@ -159,7 +159,7 @@ export const albumFetch = (albumId) => {
           payload: album,
         });
       } else {
-        console.log("Fatal error #3!");
+        console.log("Errore");
       }
     } catch (error) {
       console.log(error);
