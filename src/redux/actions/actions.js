@@ -159,7 +159,7 @@ export const albumFetch = (albumId) => {
           payload: album,
         });
       } else {
-        console.log("Errore");
+        console.log("Errore #3");
       }
     } catch (error) {
       console.log(error);
